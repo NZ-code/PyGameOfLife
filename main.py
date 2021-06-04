@@ -5,5 +5,5 @@ import time
 w = World(10, 10)
 w.set_organism()
 while True:
-    time.sleep(0.01)
+    time.sleep(0.7)
     w.print_world()
